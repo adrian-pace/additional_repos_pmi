@@ -1,4 +1,0 @@
-98917 min=0
-98906 min=10
-0.98905 min=26
-must be less than 50
