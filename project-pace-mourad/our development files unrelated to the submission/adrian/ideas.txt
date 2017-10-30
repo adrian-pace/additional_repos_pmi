@@ -1,0 +1,16 @@
+Logistic regression
+GridSearchCV(pipe1,parameters,cv=kfold)
+SelectKBest (individual importance)
+RFECV ( feature selection but collective behaviour)
+
+Use from gensim.parsing.preprocessing import STOPWORDS
+# remove words that appear only once
+# remove all numerics and tokens with numebrs
+# lemmattizing tokens (better than stemming by taking word context into account)
+# remove non-english words
+# build the dictionary and store it to disc for future use
+# convert the corpus into bag of words 
+
+# report k nearest nighbors of a focal course
+Latent Semantic Indexing SVD
+Latent Dirichlet Allocation (LDA) (big dataset)
