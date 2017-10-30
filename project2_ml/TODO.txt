@@ -1,0 +1,49 @@
+https://www.overleaf.com/7440044kqpbgdsbgpxy#/25821662/
+Louis: coder, result
+Pace: parler de combiner sgd et ALS. Parler plus de 180 features. Que grid search prend trop de temps.
+Chris : methodology + tester avec 180
+
+FINDING GAMMA AND FINDING WEIGHTE AVERAGE (ask Chris about implementation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Find good lambdas (chris et Louis)
+Find good values of K (maybe 20 features is too low for 10K movies) (chris et louis)
+changer min_number_features (pace)
+use item_features instead of full_item_features in fill added ellements (et dans l'autre sens) (marche pas pour train)
+lancer fill_added_user pls fois (pace) (has no impact)
+reflechir sur quoi mettre dans add_remove_elements (mean ?)
+mettre sur master (pace)
+Look at the litterature on the internet (pace)
+
+Create a submission function
+Try to normalize the data
+Try other initial conditions
+
+
+randomize data or sort by number of ratings ?
+Try the threshold modification (threhsold should be close to the number of features so that a user with only one rating doesn't get all its features to smth crazy)
+new line in output
+
+
+
+remove item and users < threshold in train and test but know which indices you removed. DONE
+insert in item_features, and user_features the removed items and users with features calculated with the allready in place features.DONE
+Recalculate the inserted items/users's features with one iteration of the for in update_user_feature and update_item_features. DONE
+Put methods in project DONE
+Find errors in ALS in ex10baligand and ex10Chris DONE
